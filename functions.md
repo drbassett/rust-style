@@ -110,3 +110,77 @@ fn add_four_numbers
 }
 ```
 * Put the closing delimiter (`>` or `)`) on the same line as the last item in the list.
+
+### Multi-line examples
+
+Short parameter list:
+```
+fn my_function
+(param1 : Type1, param2 : Type2) {
+    // codez
+}
+```
+
+Long parameter list:
+```
+fn my_function
+(param1 : Type1,
+        param2 : Type2,
+        param3 : Type3,
+        param4 : Type4) {
+    // codez
+}
+```
+
+Short parameter list, with return type:
+```
+fn my_function
+(param1 : Type1, param2 : Type2)
+-> ReturnType {
+    // codez
+}
+```
+
+Long parameter list, with return type:
+```
+fn my_function
+(param1 : Type1,
+        param2 : Type2,
+        param3 : Type3,
+        param4 : Type4)
+-> ReturnType {
+    // codez
+}
+```
+
+Short template list, short parameter list:
+```
+fn my_function
+<TGeneric1, TGeneric2, TGeneric3> {
+(param1 : Type1, param2 : Type2) {
+    // codez
+}
+```
+
+Everything on the menu (hopefully there aren't too many any of these nasty beasties):
+```
+fn my_function
+<'a,
+        'b,
+        'c,
+        TGeneric1,
+        TGeneric2,
+        TGeneric3,
+        TGeneric4>
+(param1 : Type1,
+        param2 : Type2,
+        param3 : Type3,
+        param4 : Type4)
+-> ReturnType
+where TGeneric1 : Constraint1,
+        TGeneric2 : Constraint2,
+        TGeneric3 : Constraint3,
+        TGeneric4 : Constraint4 {
+    // codez
+}
+```
