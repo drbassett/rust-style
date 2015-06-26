@@ -81,3 +81,32 @@ where TGeneric1 : Constaint1, TGeneric2 : Constaint2 {
 }
 ```
 
+### Splitting Lists
+
+Often, the list sections (generic type list, parameter list, and where clause) will be very long on their own. So, there are some additional rules for aplitting them up.
+
+* Include the first item in the list on the same line as the opening token for the list, namely the `<`, `(`, or `where` token.
+* Put each additional item on its own line, preceded by two levels of indentation. Two levels are used to prevent the function signature from running into the function body.
+
+**Do** this
+``` rust
+fn add_four_numbers
+(number1 : u32,
+        number2 : u32,
+        number2 : u32,
+        number2 : u32) {
+    let result = number1 + number2 + number3 + number4;
+}
+```
+
+**Don't** do this - hard to tell where the signature ends and function body begins
+``` rust
+fn add_four_numbers
+(number1 : u32,
+    number2 : u32,
+    number2 : u32,
+    number2 : u32) {
+    let result = number1 + number2 + number3 + number4;
+}
+```
+* Put the closing delimiter (`>` or `)`) on the same line as the last item in the list.
