@@ -1,6 +1,6 @@
 # Functions
 
-## Basic Rules
+## Signature Formatting
 
 Functions signatures are divided into several parts: the function name, the generic type list, the parameter list, the return type, and the where clause. The following paragraphs cover the formatting guidelines for each of these individual sections.
 
