@@ -4,7 +4,7 @@
 use std::io;
 
 fn main() {
-	println!("Hello, world");
+	println!("Hello, world!");
 }
 ```
 
@@ -16,6 +16,16 @@ fn main() {
 ## Bracing
 ### Follow Stroustrup bracing style
 All opening braces should be inline and closing braces should be on their own line.
+
+``` rust
+fn main() {
+	if (true) {
+		println!("Hello, world!");
+	} else {
+		println!("wtf?");
+	}
+}
+```
 
 ## Organization
 ### Organize `use` statements
