@@ -2,7 +2,7 @@
 
 ## Basic Rules
 
-Functions are divided into several parts: the function name, the generic type list, the parameter list, the return type, and the where clause. The following paragraphs cover the formatting guidelines for each of these individual sections.
+Functions signatures are divided into several parts: the function name, the generic type list, the parameter list, the return type, and the where clause. The following paragraphs cover the formatting guidelines for each of these individual sections.
 
 The Rust compiler is adamant about using snake case (i.e. `my_function_name`) function names, so this is the recommendend naming convention. Not much more to say about those.
 
@@ -19,29 +19,29 @@ Ok, I lied - there is one more thing. The opening curly brace for the function b
 TLDR: Here are what your function signatures should look like:
 
 Just a return type:
-```
+``` rust
 fn my_function_name() -> ReturnType {
-    ...
+    // ...
 }
 ```
 
 With generic type list:
-```
+``` rust
 fn my_fun<'a, 'b', TGeneric1 : Constaint1 + Constraint2>() {
-    ...
+    // ...
 }
 ```
 
 With parameters:
-```
+``` rust
 fn my_fun(param1 : Type1, param2 : Type2) {
-    ...
+    // ...
 }
 ```
 
 With where clause:
-```
+``` rust
 fn my_fun<TGeneric1, TGeneric2>() where TGeneric1 : Constaint1, TGeneric2 : Constraint2 {
-    ...
+    // ...
 }
 ```
