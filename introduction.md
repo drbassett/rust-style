@@ -1,4 +1,9 @@
 # The Basics
+The accepted term for a rust developer is `rustacean`. Acceptable prompts for developing Rust code include:
+> Feeling rusty?
+
+> Wanna get rustified?
+
 ## A well-formed example
 ``` rust
 use std::io;
