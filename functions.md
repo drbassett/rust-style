@@ -61,7 +61,7 @@ fn my_fun<TGeneric1, TGeneric2>() where TGeneric1 : Constaint1, TGeneric2 : Cons
 
 Prefer to declare functions on one line if possible, but sometimes one line just isn't enough for a really long and complicated siggy, kind of like how one line isn't long enough for this really long run-on sentence.
 
-Basically, for a multi-line signature, each part listed in the [Signatures Parts](functions.md#Signatures Parts) should be on its own line. The following list specifies exactly which components go on which line:
+Basically, for a multi-line signature, each part listed in the [Signatures Parts](functions.md#signatures-parts) should be on its own line. The following list specifies exactly which components go on which line:
 
 1. The `fn` keyword and function name
 2. The generic type list
