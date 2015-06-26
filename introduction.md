@@ -9,9 +9,9 @@ fn main() {
 ```
 
 ## Naming
-##### Use `snake_case` for `fn` names
-##### Use `kebab-case` for variables names
-##### Use `UpperCamelCase` for `traits` and `structs`
+* Use `snake_case` for `fn` names
+* Use `kebab-case` for variables names
+* Use `UpperCamelCase` for `traits` and `structs`
 
 ## Bracing
 ### Follow Stroustrup bracing style
