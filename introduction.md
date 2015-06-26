@@ -29,7 +29,7 @@ fn main() {
 
 ## Organization
 ### Organize `use` statements
-Makes it easier to find `use` 
+Helps to avoid duplicate `use` statements.
 
 ### Not sure what to call this
 ``` rust
