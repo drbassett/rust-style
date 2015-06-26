@@ -1,4 +1,5 @@
 # The Basics
+## A well-formed example
 ``` rust
 use std::io;
 
