@@ -31,7 +31,7 @@ fn main() {
 ### Organize `use` statements
 Helps to avoid duplicate `use` statements.
 
-### Not sure what to call this
+### `trait`, `Struct`, and `impl`
 ``` rust
 // trait first
 pub trait Tile {
