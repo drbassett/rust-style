@@ -16,7 +16,7 @@ Finally, some functions have where clauses. The `where` keyword should be preced
 
 Ok, I lied - there is one more thing. The opening curly brace for the function body should go on the same line as the function, not the next line. There should be exactly one space preceding it.
 
-TLDR: Here are what your function signatures should look like:
+**TLDR: Here are what your function signatures should look like:**
 
 Just a return type:
 ``` rust
