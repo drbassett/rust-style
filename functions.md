@@ -22,6 +22,7 @@ Some functions have where clauses. The `where` keyword should be preceded and fo
 ## Bracing
 The opening curly brace for the function body should go on the same line as the function, not the next line. There should be exactly one space preceding it. The closing curly brace should be on its own line, aligned with the first character of the text preceding the opening curly brace.
 
+## Examples
 **TLDR: Here are what your function signatures should look like:**
 
 Just a return type:
